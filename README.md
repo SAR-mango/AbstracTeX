@@ -1,6 +1,7 @@
 # AbstracTeX
+For the user guide, [https://github.com/SAR-mango/AbstracTeX/blob/main/user_guide.md](click here).
 ## Overview
-The purpose of this program is to provide the user with a simple, abstracted way of implementing the following in LaTeX:
+The purpose of AbstracTeX is to provide the user with a simple, abstracted way of implementing the following in LaTeX:
 - Drawings (circuits, block diagrams, simple shapes)
 - Graphs (2D graphs of functions and direction fields)
 - Tables (all sorts of them – truth tables, data tables, Karnaugh Maps...)
