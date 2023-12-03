@@ -6,4 +6,5 @@ The purpose of this program is to provide the user with a simple, abstracted way
 - Tables (all sorts of them – truth tables, data tables, Karnaugh Maps...)
 - Title, section, and subsection formatting
 - Figures and captions
+- Numbered and bulleted lists
 - Headers and footers
