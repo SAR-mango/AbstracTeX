@@ -1,5 +1,5 @@
 # AbstracTeX
-For the user guide, (click here)[https://github.com/SAR-mango/AbstracTeX/blob/main/user_guide.md].
+For the user guide, [click here](https://github.com/SAR-mango/AbstracTeX/blob/main/user_guide.md).
 ## Overview
 The purpose of AbstracTeX is to provide the user with a simple, abstracted way of implementing the following in LaTeX:
 - Drawings (circuits, block diagrams, simple shapes)
