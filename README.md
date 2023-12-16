@@ -9,6 +9,6 @@ The purpose of AbstracTeX is to provide the user with a simple, abstracted way o
 - Minipage columns
 - Figures and captions
 - Numbered and bulleted lists
-- Headers and footers
+- Page formatting, headers, and footers
 ## Examples
 TBA...
