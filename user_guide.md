@@ -1,9 +1,12 @@
 # AbstracTeX User Guide
 ## 1. Installation and Setup
-## 2. Page formatting
+### 1.1 – Installation
+### 1.2 – Creating a Document
+
+## 2. Page Formatting
 ### 2.1 – Margins and Page Numbers
 ### 2.2 – Headers and Footers
-### 2.3 Title, Section, and Subsection Formatting
+### 2.3 – Title, Section, and Subsection Formatting
 ## 3. Drawings
 ### 3.1 – Circuits
 ### 3.2 – Block Diagrams
