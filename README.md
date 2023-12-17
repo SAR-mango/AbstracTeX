@@ -13,11 +13,17 @@ The purpose of AbstracTeX is to provide the user with a simple, abstracted way o
 - Numbered and bulleted lists
 ## Pseudocode
 Below is some pseudocode that outlines what a user could do with AbstracTeX:
-- Create a document
-set up page style for all pages including indent first paragraph or not
-set up title page style
-set up headers and footers
-set up title page
+- `create` a document
+- `setup` a style for all pages
+    - `set` indentFirstPar = true
+    - `setup` header
+    - `setup` footer
+- `setup` a style for just the title page
+- `setup` title format
+    - `setup` author format
+        - `set` author = "Author"
+        - `set` position = 0.5em below title
+
 set up sections
 set up subsections
 create section(textual)
