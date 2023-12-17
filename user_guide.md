@@ -1,15 +1,15 @@
 # AbstracTeX User Guide
-## 1. Setting Things Up
-### 1.1 – Introduction
-AbstracTex is a scripting language with two primary commands:
-- `create` creates an object of some sort.
-- `setup` sets up parameters for a given object.
-
-### 1.2 – Compile and Run the Program
+## 1. Introduction
+### 1.1 – Compile and Run the Program
 To compile: `make`.
 
 To run: `./abstractex`
-
+### 1.1 Syntax
+AbstracTex is a scripting language with four primary commands:
+- `create` creates an object.
+- `setup` sets up an object.
+- `set` sets a parameter.
+- `get` gets a parameter.
 ### 1.2 – Creating a Document
 Upon running the program, you will be greeted with a shell interface.
 
@@ -57,7 +57,33 @@ To create a document:
 equations
 table of contents
 
-reorder user guide topics
-
-
-primary commands are create, setup, and draw
+## Example
+```
+create document
+setup page style:
+	set pages = all, not title
+	set margins = 0.5in
+	set lineSpacing = 1.25pt
+	set indentFirst = false
+	header:
+		line 1:
+			set left = "AbstracTeX"
+			set right = "User Guide"
+		line 2:
+			set right = "Section " + get(currSection) + "." + get(currSubsection) + ": " + get(currSubsectionName)
+	footer:
+		center = "Page " + get(currPage) + " of " + get(totalPages)
+setup title style:
+setup section style:
+setup subsection style:
+```
+- Page formatting, headers, and footers
+- Title, section, and subsection formatting
+- Table of contents
+- Equations
+- Drawings (circuits, block diagrams, simple shapes)
+- Graphs (2D graphs of functions and direction fields)
+- Tables (all sorts of them – truth tables, data tables, Karnaugh Maps...)
+- Minipage columns
+- Figures and captions
+- Numbered and bulleted lists
